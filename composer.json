@@ -2,6 +2,7 @@
     "name": "comoco/mysqldump-php",
     "description": "use dumpmysql command as a php class",
     "license": "MIT",
+    "minimum-stability": "stable",
     "require": {},
     "require-dev": {},
     "authors": [
