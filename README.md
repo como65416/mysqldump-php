@@ -1,6 +1,16 @@
 # mysqldump-php
 use dumpmysql command as a php class
 
+## Installation
+
+```bash
+composer require comoco/mysqldump-php
+```
+
+## Requirements:
+
+- mysqldump
+
 Usage:
 
 ```php
