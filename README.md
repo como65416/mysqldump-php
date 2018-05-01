@@ -7,11 +7,11 @@ use dumpmysql command as a php class
 composer require comoco/mysqldump-php
 ```
 
-## Requirements:
+## Requirements
 
 - mysqldump
 
-Usage:
+## Usage
 
 ```php
 <?php
