@@ -3,7 +3,9 @@
     "description": "use dumpmysql command as a php class",
     "license": "MIT",
     "minimum-stability": "stable",
-    "require": {},
+    "require": {
+        "symfony/process": "^3.0"
+    },
     "require-dev": {},
     "authors": [
         {
