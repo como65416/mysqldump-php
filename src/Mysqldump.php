@@ -238,7 +238,7 @@ class Mysqldump
         $process->wait();
         $output = $process->getOutput();
         $outputError = $process->getErrorOutput();
-        $outputError = trim(str_replace('mysqldump: [Warning] Using a password on the command line interface can be insecure.', '', $outputError));
+        $outputError = trim(preg_replace('/^.*?Using a password on the command line interface can be insecure.*?\n/', '', $outputError));
         if (!empty($outputError)) {
             throw new MysqldumpException($outputError);
         }
